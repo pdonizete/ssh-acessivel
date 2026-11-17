@@ -4,5 +4,5 @@ setlocal
 cd /d "%~dp0"
 set "DOTNET=dotnet"
 where dotnet >nul 2>nul || set "DOTNET=%ProgramFiles%\dotnet\dotnet.exe"
-"%DOTNET%" publish src\AcessivelSsh.App\AcessivelSsh.App.csproj -c Release -r win-x64 --self-contained true -o publish
+"%DOTNET%" publish src\SshAcessivel.App\SshAcessivel.App.csproj -c Release -r win-x64 --self-contained true -o publish
 exit /b %ERRORLEVEL%

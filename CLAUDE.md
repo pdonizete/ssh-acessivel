@@ -1,4 +1,4 @@
-# AcessivelSsh: regras do projeto
+# SSH Acessível: regras do projeto
 
 Cliente SSH para Windows feito para usuários do NVDA. A especificação completa está em `PROMPT.MD`, e o plano aprovado está em `C:\Users\paulo\.claude\plans\pasted-content-id-ec79-projeto-cheeky-bumblebee.md`.
 
@@ -19,8 +19,8 @@ Acessibilidade vem primeiro. Se uma decisão técnica atrapalha a leitura pelo N
 ## Stack
 - .NET 10, WinForms, `net10.0-windows`, x64 (definido em `Directory.Build.props`).
 - SSH.NET 2026.0.1 (as versões até a 2025.1.0 têm vulnerabilidades altas).
-- Solução `AcessivelSsh.slnx`: `src/AcessivelSsh.Core` (sem UI), `src/AcessivelSsh.App` (WinForms, gera AcessivelSsh.exe), `tests/AcessivelSsh.Tests` (xUnit).
-- Dados em `%APPDATA%\AcessivelSsh\`.
+- Solução `SshAcessivel.slnx`: `src/SshAcessivel.Core` (sem UI), `src/SshAcessivel.App` (WinForms, gera ssh-acessivel.exe), `tests/SshAcessivel.Tests` (xUnit).
+- Dados em `%APPDATA%\ssh-acessivel\`.
 - `ShellStream.Read` bloqueia e ignora CancellationToken: a leitura roda numa thread de fundo dedicada; o envio passa por um `Channel<string>` consumido numa Task. Cada conexão tem um número de geração para threads antigas não anunciarem eventos falsos.
 - Host key: `HostKeyForm` (Aceitar uma vez / Aceitar e salvar / Cancelar; Enter e Esc cancelam). `known_hosts` próprio, chave por host+porta; impressão digital diferente bloqueia, mesmo com outro tipo de chave.
 - Conexões em `connections.json`; segredos só como DPAPI base64 em `ProtectedSecret`. Exportar/importar nunca leva segredos. Arquivo ilegível: cópia `.corrompido-*` antes de sobrescrever.
@@ -42,7 +42,7 @@ Acessibilidade vem primeiro. Se uma decisão técnica atrapalha a leitura pelo N
 - Todo campo tem Label com tecla de acesso (&), com TabIndex logo antes do campo.
 - Todo diálogo fecha com Esc (CancelButton) e tem botão padrão no Enter (AcceptButton).
 - Nenhuma informação só por cor ou ícone.
-- Textos em `src/AcessivelSsh.App/Resources/Strings.resx` (pt-BR), nunca literais no código da UI.
+- Textos em `src/SshAcessivel.App/Resources/Strings.resx` (pt-BR), nunca literais no código da UI.
 - Anexar saída nunca move o foco nem o cursor do usuário.
 - A thread da UI nunca faz I/O de rede. Atualizações da UI só via `BeginInvoke`/SynchronizationContext.
 - Mudanças de estado da conexão são faladas.

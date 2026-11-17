@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos da interface em pt-BR (idioma neutro do app). Para traduzir, crie Strings.<cultura>.resx. -->
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AppName" xml:space="preserve"><value>SSH Acessível</value></data>
+  <data name="Error_Unexpected" xml:space="preserve"><value>Ocorreu um erro inesperado, mas o aplicativo continua aberto. Detalhes: {0}</value></data>
+  <data name="TestForm_Title" xml:space="preserve"><value>Teste do NVDA - SSH Acessível</value></data>
+  <data name="TestForm_TextLabel" xml:space="preserve"><value>&amp;Texto para falar:</value></data>
+  <data name="TestForm_TextName" xml:space="preserve"><value>Texto para falar</value></data>
+  <data name="TestForm_Interrupt" xml:space="preserve"><value>&amp;Interromper a fala anterior</value></data>
+  <data name="TestForm_Speak" xml:space="preserve"><value>&amp;Falar</value></data>
+  <data name="TestForm_Braille" xml:space="preserve"><value>&amp;Braille</value></data>
+  <data name="TestForm_Cancel" xml:space="preserve"><value>&amp;Cancelar fala</value></data>
+  <data name="TestForm_Close" xml:space="preserve"><value>Fe&amp;char</value></data>
+  <data name="StatusBar_Name" xml:space="preserve"><value>Barra de status</value></data>
+  <data name="Status_Ready" xml:space="preserve"><value>NVDA conectado. Funções opcionais da DLL: {0}.</value></data>
+  <data name="Status_OptionalNone" xml:space="preserve"><value>nenhuma</value></data>
+  <data name="Status_NvdaNotRunning" xml:space="preserve"><value>O NVDA não está em execução. O aplicativo funciona sem fala.</value></data>
+  <data name="Status_DllNotFound" xml:space="preserve"><value>Biblioteca do NVDA não encontrada. O aplicativo funciona sem fala.</value></data>
+  <data name="Status_EmptyText" xml:space="preserve"><value>Digite um texto antes de falar.</value></data>
+  <data name="Status_Spoken" xml:space="preserve"><value>Texto enviado ao NVDA.</value></data>
+  <data name="Status_SpeakFailed" xml:space="preserve"><value>O NVDA não respondeu ao pedido de fala.</value></data>
+  <data name="Status_BrailleSent" xml:space="preserve"><value>Mensagem enviada à linha braille.</value></data>
+  <data name="Status_BrailleFailed" xml:space="preserve"><value>O NVDA não respondeu ao pedido de braille.</value></data>
+  <data name="Main_TitleConnected" xml:space="preserve"><value>{0} - SSH Acessível</value></data>
+  <data name="Main_CommandLabel" xml:space="preserve"><value>Co&amp;mando:</value></data>
+  <data name="Main_CommandName" xml:space="preserve"><value>Comando</value></data>
+  <data name="Main_OutputLabel" xml:space="preserve"><value>&amp;Saída:</value></data>
+  <data name="Main_OutputName" xml:space="preserve"><value>Saída</value></data>
+  <data name="Menu_Connection" xml:space="preserve"><value>&amp;Conexão</value></data>
+  <data name="Menu_Connect" xml:space="preserve"><value>&amp;Conectar...</value></data>
+  <data name="Menu_Disconnect" xml:space="preserve"><value>&amp;Desconectar</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Sai&amp;r</value></data>
+  <data name="Menu_Help" xml:space="preserve"><value>&amp;Ajuda</value></data>
+  <data name="Menu_TestNvda" xml:space="preserve"><value>&amp;Testar o NVDA...</value></data>
+  <data name="Conn_Title" xml:space="preserve"><value>Conectar a um servidor</value></data>
+  <data name="Conn_HostLabel" xml:space="preserve"><value>&amp;Servidor:</value></data>
+  <data name="Conn_HostName" xml:space="preserve"><value>Servidor</value></data>
+  <data name="Conn_PortLabel" xml:space="preserve"><value>&amp;Porta:</value></data>
+  <data name="Conn_PortName" xml:space="preserve"><value>Porta</value></data>
+  <data name="Conn_UserLabel" xml:space="preserve"><value>&amp;Usuário:</value></data>
+  <data name="Conn_UserName" xml:space="preserve"><value>Usuário</value></data>
+  <data name="Conn_PasswordLabel" xml:space="preserve"><value>S&amp;enha:</value></data>
+  <data name="Conn_PasswordName" xml:space="preserve"><value>Senha</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>&amp;Conectar</value></data>
+  <data name="Conn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Conn_HostRequired" xml:space="preserve"><value>Informe o endereço do servidor.</value></data>
+  <data name="Conn_UserRequired" xml:space="preserve"><value>Informe o nome de usuário.</value></data>
+  <data name="State_Connecting" xml:space="preserve"><value>Conectando a {0}...</value></data>
+  <data name="State_Connected" xml:space="preserve"><value>Conectado a {0}.</value></data>
+  <data name="State_Disconnected" xml:space="preserve"><value>Desconectado.</value></data>
+  <data name="State_AuthFailed" xml:space="preserve"><value>Falha na autenticação. Verifique o usuário e a senha.</value></data>
+  <data name="State_HostKeyRejected" xml:space="preserve"><value>Conexão cancelada: a chave do servidor não foi aceita.</value></data>
+  <data name="State_TimedOut" xml:space="preserve"><value>Tempo esgotado. O servidor não respondeu.</value></data>
+  <data name="State_Error" xml:space="preserve"><value>Erro de conexão: {0}</value></data>
+  
+  
+  
+  
+  <data name="Main_PasswordName" xml:space="preserve"><value>Senha</value></data>
+  <data name="Speech_PasswordRequested" xml:space="preserve"><value>Senha solicitada</value></data>
+  <data name="Speech_LinesReceived" xml:space="preserve"><value>{0} linhas recebidas</value></data>
+  <data name="Speech_Progress" xml:space="preserve"><value>{0} por cento</value></data>
+  <data name="Speech_FullScreenCommand" xml:space="preserve"><value>Atenção: {0} é um programa de tela cheia e não é suportado nesta versão. A saída pode ficar ilegível. Para sair, digite q ou :q e tecle Enter. Se não funcionar, desconecte e conecte de novo.</value></data>
+  <data name="Speech_FullScreenDetected" xml:space="preserve"><value>Programa de tela cheia detectado. Ele não é suportado nesta versão, e a saída pode ficar ilegível.</value></data>
+  <data name="Menu_Manager" xml:space="preserve"><value>&amp;Gerenciador de conexões...</value></data>
+  <data name="Menu_Reconnect" xml:space="preserve"><value>Re&amp;conectar</value></data>
+  <data name="Reconnect_NoPrevious" xml:space="preserve"><value>Nenhuma conexão anterior. Use Ctrl+N para abrir o gerenciador de conexões.</value></data>
+  <data name="State_ConnectionLost" xml:space="preserve"><value>A conexão caiu. Tecle Ctrl+R para reconectar.</value></data>
+  <data name="State_NotConnected" xml:space="preserve"><value>Não conectado. Use Ctrl+N para abrir o gerenciador de conexões ou Ctrl+R para reconectar.</value></data>
+  <data name="State_HostKeyMismatch" xml:space="preserve"><value>Conexão bloqueada: a chave do servidor mudou.</value></data>
+  <data name="Store_LoadProblem" xml:space="preserve"><value>O arquivo de conexões não pôde ser lido. Uma cópia foi guardada em {0}. A lista começa vazia.</value></data>
+  <data name="Store_LoadProblemNoBackup" xml:space="preserve"><value>O arquivo de conexões {0} não pôde ser lido. Ele não será alterado nesta sessão.</value></data>
+  <data name="Manager_Title" xml:space="preserve"><value>Gerenciador de conexões</value></data>
+  <data name="Manager_ListLabel" xml:space="preserve"><value>&amp;Servidores:</value></data>
+  <data name="Manager_ListName" xml:space="preserve"><value>Servidores</value></data>
+  <data name="Manager_ColName" xml:space="preserve"><value>Nome</value></data>
+  <data name="Manager_ColHost" xml:space="preserve"><value>Servidor</value></data>
+  <data name="Manager_ColUser" xml:space="preserve"><value>Usuário</value></data>
+  <data name="Manager_ColGroup" xml:space="preserve"><value>Grupo</value></data>
+  <data name="Manager_Connect" xml:space="preserve"><value>&amp;Conectar</value></data>
+  <data name="Manager_Add" xml:space="preserve"><value>&amp;Adicionar...</value></data>
+  <data name="Manager_Edit" xml:space="preserve"><value>&amp;Editar...</value></data>
+  <data name="Manager_Duplicate" xml:space="preserve"><value>&amp;Duplicar...</value></data>
+  <data name="Manager_Remove" xml:space="preserve"><value>&amp;Remover</value></data>
+  <data name="Manager_Import" xml:space="preserve"><value>&amp;Importar...</value></data>
+  <data name="Manager_Export" xml:space="preserve"><value>E&amp;xportar...</value></data>
+  <data name="Manager_Close" xml:space="preserve"><value>&amp;Fechar</value></data>
+  <data name="Manager_ConfirmRemove" xml:space="preserve"><value>Remover a conexão {0}?</value></data>
+  <data name="Manager_CopySuffix" xml:space="preserve"><value> (cópia)</value></data>
+  <data name="Manager_ImportTitle" xml:space="preserve"><value>Importar lista de servidores</value></data>
+  <data name="Manager_ExportTitle" xml:space="preserve"><value>Exportar lista de servidores</value></data>
+  <data name="Manager_ImportDone" xml:space="preserve"><value>{0} conexões importadas.</value></data>
+  <data name="Manager_ImportFailed" xml:space="preserve"><value>Não foi possível importar o arquivo: {0}</value></data>
+  <data name="Manager_ExportDone" xml:space="preserve"><value>Lista exportada, sem senhas, para {0}.</value></data>
+  <data name="Manager_ExportFailed" xml:space="preserve"><value>Não foi possível exportar: {0}</value></data>
+  <data name="Manager_SaveFailed" xml:space="preserve"><value>Não foi possível salvar a lista de conexões: {0}</value></data>
+  <data name="Manager_JsonFilter" xml:space="preserve"><value>Arquivos JSON (*.json)|*.json|Todos os arquivos (*.*)|*.*</value></data>
+  <data name="Manager_ExportFileName" xml:space="preserve"><value>conexoes-ssh-acessivel.json</value></data>
+  <data name="Edit_TitleNew" xml:space="preserve"><value>Nova conexão</value></data>
+  <data name="Edit_TitleEdit" xml:space="preserve"><value>Editar conexão</value></data>
+  <data name="Edit_NameLabel" xml:space="preserve"><value>&amp;Nome:</value></data>
+  <data name="Edit_NameName" xml:space="preserve"><value>Nome</value></data>
+  <data name="Edit_AuthLabel" xml:space="preserve"><value>&amp;Tipo de autenticação:</value></data>
+  <data name="Edit_AuthName" xml:space="preserve"><value>Tipo de autenticação</value></data>
+  <data name="Auth_Password" xml:space="preserve"><value>Senha</value></data>
+  <data name="Auth_Key" xml:space="preserve"><value>Chave privada</value></data>
+  <data name="Edit_KeyLabel" xml:space="preserve"><value>Arquivo da &amp;chave privada:</value></data>
+  <data name="Edit_KeyName" xml:space="preserve"><value>Arquivo da chave privada</value></data>
+  <data name="Edit_Browse" xml:space="preserve"><value>Pr&amp;ocurar...</value></data>
+  <data name="Edit_BrowseTitle" xml:space="preserve"><value>Escolha o arquivo da chave privada</value></data>
+  <data name="Edit_KeyFilter" xml:space="preserve"><value>Todos os arquivos (*.*)|*.*</value></data>
+  <data name="Edit_SavePassword" xml:space="preserve"><value>Sa&amp;lvar a senha neste computador (protegida pelo Windows)</value></data>
+  <data name="Edit_SavePassphrase" xml:space="preserve"><value>Sa&amp;lvar a passphrase neste computador (protegida pelo Windows)</value></data>
+  <data name="Edit_PasswordLabel" xml:space="preserve"><value>S&amp;enha:</value></data>
+  <data name="Edit_PasswordName" xml:space="preserve"><value>Senha</value></data>
+  <data name="Edit_PassphraseLabel" xml:space="preserve"><value>Passp&amp;hrase:</value></data>
+  <data name="Edit_PassphraseName" xml:space="preserve"><value>Passphrase</value></data>
+  <data name="Edit_GroupLabel" xml:space="preserve"><value>&amp;Grupo (opcional):</value></data>
+  <data name="Edit_GroupName" xml:space="preserve"><value>Grupo</value></data>
+  <data name="Edit_Ok" xml:space="preserve"><value>OK</value></data>
+  <data name="Edit_KeyRequired" xml:space="preserve"><value>Escolha o arquivo da chave privada.</value></data>
+  <data name="Edit_KeyMissing" xml:space="preserve"><value>O arquivo da chave não foi encontrado: {0}</value></data>
+  <data name="Edit_ProtectFailed" xml:space="preserve"><value>Não foi possível proteger o segredo: {0}</value></data>
+  <data name="Prompt_PasswordTitle" xml:space="preserve"><value>Senha</value></data>
+  <data name="Prompt_PasswordLabel" xml:space="preserve"><value>&amp;Senha de {0}@{1}:</value></data>
+  <data name="Prompt_PassphraseTitle" xml:space="preserve"><value>Passphrase da chave</value></data>
+  <data name="Prompt_PassphraseLabel" xml:space="preserve"><value>&amp;Passphrase da chave {0}:</value></data>
+  <data name="Prompt_WrongPassphrase" xml:space="preserve"><value>Passphrase incorreta. Digite de novo a &amp;passphrase da chave {0}:</value></data>
+  <data name="Key_NotFound" xml:space="preserve"><value>Arquivo da chave não encontrado: {0}</value></data>
+  <data name="Key_Unreadable" xml:space="preserve"><value>Não foi possível ler o arquivo da chave: {0}</value></data>
+  <data name="Key_Invalid" xml:space="preserve"><value>O arquivo {0} não é uma chave válida ou está num formato não suportado. Formatos aceitos: OpenSSH e PEM, com chaves ed25519, RSA ou ECDSA.</value></data>
+  <data name="HostKey_Title" xml:space="preserve"><value>Confirme a chave do servidor</value></data>
+  <data name="HostKey_Message" xml:space="preserve"><value>Primeira conexão com o servidor {0}, porta {1}. Confira se a impressão digital abaixo é a mesma informada pelo administrador do servidor.
+
+Tipo da chave: {2}
+Impressão digital: {3}
+
+Se você não tem certeza de que este é o servidor certo, cancele.</value></data>
+  <data name="HostKey_DetailsLabel" xml:space="preserve"><value>&amp;Detalhes:</value></data>
+  <data name="HostKey_DetailsName" xml:space="preserve"><value>Detalhes da chave do servidor</value></data>
+  <data name="HostKey_FingerprintLabel" xml:space="preserve"><value>&amp;Impressão digital:</value></data>
+  <data name="HostKey_FingerprintName" xml:space="preserve"><value>Impressão digital SHA256</value></data>
+  <data name="HostKey_AcceptOnce" xml:space="preserve"><value>Aceitar &amp;uma vez</value></data>
+  <data name="HostKey_AcceptSave" xml:space="preserve"><value>Aceitar e &amp;salvar</value></data>
+  <data name="HostKey_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="HostKey_MismatchTitle" xml:space="preserve"><value>ALERTA DE SEGURANÇA: a chave do servidor mudou</value></data>
+  <data name="HostKey_MismatchSpeech" xml:space="preserve"><value>Alerta de segurança. A chave do servidor mudou. A conexão foi bloqueada.</value></data>
+  <data name="HostKey_MismatchMessage" xml:space="preserve"><value>ALERTA DE SEGURANÇA. A chave do servidor {0}, porta {1}, é diferente da que foi salva. A conexão foi bloqueada.
+
+Isso pode ser um ataque, com alguém se passando pelo servidor, ou uma reinstalação do servidor.
+
+Tipo da chave recebida: {2}
+Impressão digital recebida: {3}
+
+Se o administrador confirmou que a chave mudou de propósito, apague a linha deste servidor no arquivo:
+{4}</value></data>
+  <data name="HostKey_SaveFailed" xml:space="preserve"><value>A chave foi aceita, mas não foi possível salvá-la: {0}</value></data>
+  <data name="Menu_Tools" xml:space="preserve"><value>&amp;Ferramentas</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>&amp;Configurações...</value></data>
+  <data name="Menu_SessionLog" xml:space="preserve"><value>&amp;Log da sessão...</value></data>
+  <data name="Menu_StopSessionLog" xml:space="preserve"><value>&amp;Parar o log da sessão</value></data>
+  <data name="Menu_OpenLogs" xml:space="preserve"><value>Abrir a pasta de log de &amp;erros</value></data>
+  <data name="Menu_Shortcuts" xml:space="preserve"><value>&amp;Atalhos de teclado...</value></data>
+  <data name="Action_ToggleFocus" xml:space="preserve"><value>Alternar o foco entre comando e saída</value></data>
+  <data name="Action_HistoryPrevious" xml:space="preserve"><value>Comando anterior do histórico (no campo de comando)</value></data>
+  <data name="Action_HistoryNext" xml:space="preserve"><value>Próximo comando do histórico (no campo de comando)</value></data>
+  <data name="Action_SendInterrupt" xml:space="preserve"><value>Interromper o comando no servidor, Ctrl+C (campo de comando vazio ou sem seleção)</value></data>
+  <data name="Action_SendTab" xml:space="preserve"><value>Enviar Tab ao servidor para autocompletar (se ativado nas configurações)</value></data>
+  <data name="Action_CancelSpeech" xml:space="preserve"><value>Interromper a fala</value></data>
+  <data name="Action_ToggleAutoRead" xml:space="preserve"><value>Ligar ou desligar a leitura automática da saída</value></data>
+  <data name="Action_RereadResponse" xml:space="preserve"><value>Reler a última resposta completa</value></data>
+  <data name="Action_CopyResponse" xml:space="preserve"><value>Copiar a última resposta</value></data>
+  <data name="Action_ClearOutput" xml:space="preserve"><value>Limpar o campo de saída</value></data>
+  <data name="Action_ReadLine" xml:space="preserve"><value>Ler a linha {0} mais recente da saída</value></data>
+  <data name="Action_ConnectionManager" xml:space="preserve"><value>Abrir o gerenciador de conexões</value></data>
+  <data name="Action_Reconnect" xml:space="preserve"><value>Reconectar</value></data>
+  <data name="Key_None" xml:space="preserve"><value>sem atalho</value></data>
+  <data name="Key_Ctrl" xml:space="preserve"><value>Ctrl</value></data>
+  <data name="Key_Shift" xml:space="preserve"><value>Shift</value></data>
+  <data name="Key_Alt" xml:space="preserve"><value>Alt</value></data>
+  <data name="Key_Up" xml:space="preserve"><value>Seta acima</value></data>
+  <data name="Key_Down" xml:space="preserve"><value>Seta abaixo</value></data>
+  <data name="Key_Left" xml:space="preserve"><value>Seta à esquerda</value></data>
+  <data name="Key_Right" xml:space="preserve"><value>Seta à direita</value></data>
+  <data name="Key_Escape" xml:space="preserve"><value>Esc</value></data>
+  <data name="Key_Enter" xml:space="preserve"><value>Enter</value></data>
+  <data name="Key_Space" xml:space="preserve"><value>Espaço</value></data>
+  <data name="Key_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Shortcuts_Title" xml:space="preserve"><value>Atalhos de teclado</value></data>
+  <data name="Shortcuts_Help" xml:space="preserve"><value>Escolha uma ação na lista e use Alterar para definir outra tecla. Atalhos com Ctrl ou Alt, teclas de função, Esc, setas acima e abaixo e Tab são aceitos. As mudanças valem ao clicar em OK.</value></data>
+  <data name="Shortcuts_ListLabel" xml:space="preserve"><value>Ata&amp;lhos:</value></data>
+  <data name="Shortcuts_ListName" xml:space="preserve"><value>Atalhos</value></data>
+  <data name="Shortcuts_ColAction" xml:space="preserve"><value>Ação</value></data>
+  <data name="Shortcuts_ColKeys" xml:space="preserve"><value>Teclas</value></data>
+  <data name="Shortcuts_Change" xml:space="preserve"><value>&amp;Alterar...</value></data>
+  <data name="Shortcuts_Clear" xml:space="preserve"><value>&amp;Remover atalho</value></data>
+  <data name="Shortcuts_Reset" xml:space="preserve"><value>Restaurar &amp;padrões</value></data>
+  <data name="Shortcuts_Invalid" xml:space="preserve"><value>{0} não pode ser usado como atalho. Use uma combinação com Ctrl ou Alt, ou uma tecla de função.</value></data>
+  <data name="Shortcuts_InUse" xml:space="preserve"><value>{0} já é o atalho de "{1}". Usar para "{2}" e deixar "{1}" sem atalho?</value></data>
+  <data name="Shortcuts_CaptureTitle" xml:space="preserve"><value>Novo atalho</value></data>
+  <data name="Shortcuts_CapturePrompt" xml:space="preserve"><value>Tecle o novo atalho para: {0}. Esc cancela.</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>Configurações</value></data>
+  <data name="Settings_Debounce" xml:space="preserve"><value>&amp;Pausa antes de falar a saída (milissegundos):</value></data>
+  <data name="Settings_Summary" xml:space="preserve"><value>Falar só o &amp;resumo acima de (linhas):</value></data>
+  <data name="Settings_Progress" xml:space="preserve"><value>Intervalo da fala de pr&amp;ogresso (segundos):</value></data>
+  <data name="Settings_MaxLines" xml:space="preserve"><value>&amp;Linhas mantidas no campo de saída:</value></data>
+  <data name="Settings_History" xml:space="preserve"><value>Comandos no &amp;histórico de cada servidor:</value></data>
+  <data name="Settings_Timeout" xml:space="preserve"><value>&amp;Tempo limite para conectar (segundos):</value></data>
+  <data name="Settings_KeepAlive" xml:space="preserve"><value>&amp;Keep-alive (segundos, 0 desliga):</value></data>
+  <data name="Settings_TabToServer" xml:space="preserve"><value>Tab no campo de comando envia Tab ao servidor (&amp;autocompletar)</value></data>
+  <data name="Settings_Note" xml:space="preserve"><value>Tempo limite e keep-alive valem a partir da próxima conexão. Os outros valores valem na hora.</value></data>
+  <data name="Settings_SaveFailed" xml:space="preserve"><value>Não foi possível salvar as configurações: {0}</value></data>
+  <data name="Speech_AutoReadOn" xml:space="preserve"><value>Leitura automática ligada</value></data>
+  <data name="Speech_AutoReadOff" xml:space="preserve"><value>Leitura automática desligada</value></data>
+  <data name="Speech_NoResponse" xml:space="preserve"><value>Nenhuma resposta ainda.</value></data>
+  <data name="Speech_EmptyResponse" xml:space="preserve"><value>A última resposta não tem texto.</value></data>
+  <data name="Speech_ResponseCopied" xml:space="preserve"><value>Última resposta copiada, {0} linhas.</value></data>
+  <data name="Speech_CopyFailed" xml:space="preserve"><value>Não foi possível copiar para a área de transferência.</value></data>
+  <data name="Speech_OutputCleared" xml:space="preserve"><value>Saída limpa.</value></data>
+  <data name="Speech_NoLine" xml:space="preserve"><value>Não há linha {0}.</value></data>
+  <data name="Speech_BlankLine" xml:space="preserve"><value>em branco</value></data>
+  <data name="Speech_HistoryEmpty" xml:space="preserve"><value>Histórico vazio.</value></data>
+  <data name="Speech_HistoryDraft" xml:space="preserve"><value>Fim do histórico.</value></data>
+  <data name="SessionLog_SaveTitle" xml:space="preserve"><value>Salvar o log da sessão</value></data>
+  <data name="SessionLog_Filter" xml:space="preserve"><value>Arquivos de texto (*.txt)|*.txt</value></data>
+  <data name="SessionLog_FileName" xml:space="preserve"><value>sessao-{0:yyyy-MM-dd-HHmm}.txt</value></data>
+  <data name="SessionLog_Started" xml:space="preserve"><value>Log da sessão gravando em {0}.</value></data>
+  <data name="SessionLog_Stopped" xml:space="preserve"><value>Log da sessão parado.</value></data>
+  <data name="SessionLog_Failed" xml:space="preserve"><value>Não foi possível gravar o log da sessão: {0}</value></data>
+</root>

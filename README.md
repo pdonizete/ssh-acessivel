@@ -1,4 +1,4 @@
-# AcessivelSsh
+# SSH Acessível
 
 Cliente SSH para Windows feito para quem usa o leitor de tela NVDA. A saída do servidor é falada em blocos, sem o eco do comando digitado, sem sequências de cor e sem cada atualização de barra de progresso.
 
@@ -28,7 +28,7 @@ cd /d d:\projetos\accessible-ssh
 build.bat      (compila em Release)
 test.bat       (roda os testes unitários)
 run.bat        (abre o app)
-publish.bat    (gera publish\AcessivelSsh.exe, self-contained win-x64)
+publish.bat    (gera publish\ssh-acessivel.exe, self-contained win-x64)
 
 
 Os scripts usam C:\Program Files\dotnet\dotnet.exe quando o dotnet não está no PATH.
@@ -76,7 +76,7 @@ Nenhum desses atalhos conflita com os comandos globais do NVDA. Ctrl sozinho int
 
 ## Onde ficam os dados
 
-Tudo fica em %APPDATA%\AcessivelSsh\:
+Tudo fica em %APPDATA%\ssh-acessivel\:
 
 - connections.json: conexões salvas. Senhas e passphrases são cifradas com o DPAPI do Windows e só podem ser abertas pelo mesmo usuário, no mesmo computador.
 - known_hosts: chaves de servidor aceitas com "Aceitar e salvar".

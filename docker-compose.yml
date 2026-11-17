@@ -7,7 +7,7 @@
 services:
   sshd:
     image: lscr.io/linuxserver/openssh-server:latest
-    container_name: acessivelssh-sshd
+    container_name: ssh-acessivel-sshd
     environment:
       - PUID=1000
       - PGID=1000

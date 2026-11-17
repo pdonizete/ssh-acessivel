@@ -1,9 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/AcessivelSsh.App/AcessivelSsh.App.csproj" />
-    <Project Path="src/AcessivelSsh.Core/AcessivelSsh.Core.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/AcessivelSsh.Tests/AcessivelSsh.Tests.csproj" />
-  </Folder>
-</Solution>
