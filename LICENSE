@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This license covers the source code of SSH Acessível. The file
-lib/nvdaControllerClient64.dll is distributed by NV Access under the GNU Lesser
-General Public License 2.1; see lib/nvdaControllerClient-LICENSE.txt.
