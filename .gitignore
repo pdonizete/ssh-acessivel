@@ -1,0 +1,17 @@
+# Saídas de compilação
+bin/
+obj/
+publish/
+
+# Arquivos de editor e do usuário
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Chaves PRIVADAS de teste do servidor Docker: nunca vão para o repositório.
+# As públicas (docker/chaves/*.pub) podem ir.
+docker/chaves-cliente/
+
+# Temporários dos scripts de recursos e de gravação atômica
+*.tmp

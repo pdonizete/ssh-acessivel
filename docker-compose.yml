@@ -1,0 +1,22 @@
+# Servidor SSH de teste, só para desenvolvimento.
+# Escuta apenas em 127.0.0.1:2222, então não fica acessível na rede.
+# Subir:   docker compose up -d
+# Parar:   docker compose down
+# Login por senha: usuário "teste", senha "teste123".
+# Login por chave: as chaves públicas (*.pub) de docker/chaves/ são autorizadas para o usuário "teste".
+services:
+  sshd:
+    image: lscr.io/linuxserver/openssh-server:latest
+    container_name: acessivelssh-sshd
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - USER_NAME=teste
+      - USER_PASSWORD=teste123
+      - PASSWORD_ACCESS=true
+      - PUBLIC_KEY_DIR=/chaves
+    volumes:
+      - ./docker/chaves:/chaves:ro
+    ports:
+      - "127.0.0.1:2222:2222"

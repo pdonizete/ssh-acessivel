@@ -1,0 +1,14 @@
+<Project>
+  <!--
+    Configurações aplicadas automaticamente a todos os projetos abaixo desta pasta.
+    O MSBuild procura este arquivo subindo a árvore de pastas, como um
+    "conftest.py" do pytest que vale para todos os testes da pasta.
+  -->
+  <PropertyGroup>
+    <!-- x64 obrigatório: a DLL do NVDA é de 64 bits e a arquitetura do processo precisa ser igual. -->
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+</Project>
